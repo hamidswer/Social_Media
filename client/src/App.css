@@ -1,0 +1,157 @@
+:root {
+  --yellow: #ffcb4c;
+  --orange: #f89b45;
+  --black: #242d49;
+  --gray: rgba(36, 45, 73, 0.65);
+  --profileShadow: 0px 4px 17px 2px rgba(0, 0, 0, 0.25);
+  --hrColor: #c8c8c8;
+  --cardColor: rgba(255, 255, 255, 0.64);
+  --buttonBg: rgb(60,145,230) none repeat scroll 0% 0% / 200%;
+  --buttonText: rgba(60, 145, 230, 0.81);
+  --inputColor: rgba(40, 52, 62, 0.07);
+  --photo: #4CB256;
+  --video: #4A4EB7;
+  --location: #EF5757;
+  --schedule: #E1AE4A;
+  --white: #efefef;
+  --cyanBlueDarkShade: #096191;
+  --cyanBlueDarkShade-l: #6f92b5;
+  --cyanBlueDarkShade-ll: #b7c7da;
+  --blueMagentaShade: #5956a3;
+  --blueMagentaShade-l: #928bc2;
+  --blueMagentaShade-ll: #c8c3e0;
+  --blueMagentaLightShade: #a297e5;
+  --blueMagentaLightShade-l: #c2b9ee;
+  --blueMagentaLightShade-ll: #e1dbf7;
+  --blueMagentaDarkShade: #6768ab;
+  --blueMagentaDarkShade-l: #9a98c7;
+  --blueMagentaDarkShade-ll: #cccae3;
+  --blueMagentaDarkShade-lll: #f6f5fd;
+  --pinkShade-s: #ba1445;
+  --pinkShade: #f8bbcd;
+  --pinkShade-l: #fbd2dd;
+  --pinkShade-ll: #fee8ee;
+  --fluid-type-min: 2rem;
+  --fluid-type-max: 10rem;
+  --fluid-type-target: 5vw;
+  --color: #dbe3ea;
+  --searchResult: rgb(234,235,237);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.center-column {
+  width: 70%;
+}
+
+.two-columns {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  background-color: rgb(248, 249, 250);
+  min-height: 100vh;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.left-column-widgets {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  overflow: hidden;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+h1 {
+  font-size: 28px;
+}
+h2, h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 18px;
+}
+h6 {
+  font-size: 14px;
+}
+input {
+  font-size: 14px;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--pinkShade);
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--pinkShade-s);
+}
+.app{
+  overflow: hidden;
+  color: var(--black);
+  position: relative;
+  max-width: 850px;
+  margin: auto;
+  min-height: 100vh;
+}
+
+.two-columns {
+  padding-bottom: 4rem;
+  width: 100% !important;
+}
+.left-column-widgets {
+  width: 35% !important;
+}
+.center-column {
+  width: 65% !important;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: var(--buttonBg);
+  transition: all 100ms ease-out;
+  border: 2px solid transparent;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: var(--orange);
+  background: transparent;
+  border: 2px solid var(--orange);
+}
+
+.button:disabled {
+  pointer-events: none;
+  background: silver;
+}
+
+--webkit-scrollbar{
+  display: none;
+}
