@@ -1,0 +1,60 @@
+.infoCard {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+    min-width: 100%;
+    background-color: var(--cardColor);
+    border-radius: 1rem;
+}
+
+.infoHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.infoHeader>div:hover {
+    cursor: pointer;   
+}
+
+.infoHeader h5 {
+    padding-top: 0.6rem;
+}
+.infoHeader div {
+    color: var(--buttonText);
+}
+.infoHeader div:hover, .infoHeader div:active  {
+    color: var(--orange);
+}
+
+
+.buttons-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+
+.delete-user-button {
+    height: 2rem;
+    align-self: flex-start;
+    margin-top: 3rem;
+    margin-right: auto;
+    font-size: small;
+    background-color: var(--orange);
+}
+.delete-user-button:hover, .delete-user-button:active {
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+}
+
+.logOut-button {
+    height: 2rem;
+    align-self: flex-end;
+    margin-top: 3rem;
+    margin-left: auto;
+    font-size: small;
+}

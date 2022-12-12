@@ -1,0 +1,56 @@
+.comments-container {
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+.comment-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 0rem 0rem;
+    width: 100%;
+}
+
+.comment-header {
+    display: flex;
+    align-items: center;
+}
+
+.author-image {
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    object-fit: cover;
+    margin-right: 0.5rem;
+}
+
+.author-name {
+    font-size: smaller;
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+
+.comment-desc {
+    font-size: smaller;
+    font-weight: 400;
+    margin-right: 0.5rem;
+
+}
+.comment-buttons {
+    justify-self: flex-end;
+    align-self: flex-start;
+    margin-left: auto;
+}
+.comment-like {
+    padding-right: 0.5rem;
+    padding-top: 0.3rem;
+    width: 1.30rem;
+    cursor: pointer;
+}
+.comment-delete {
+    width: 0.8rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding-top: 0.3rem;
+    cursor: pointer;
+}

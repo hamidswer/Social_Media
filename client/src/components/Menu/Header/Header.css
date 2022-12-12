@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(248, 249, 250);
+    max-width: 850px;
+    margin: auto;
+}
+
+.header-home {
+    margin-left: 1rem;
+}
+
+.header-search {
+    margin-left: 10rem;
+}
+.header-link {
+    text-decoration: none;
+    text-align: center;
+}
+
+.header-text {
+    font-family: 'Roboto';
+  	font-weight: 900;
+    font-size: 2rem;
+	display: block;
+	margin: 0 auto;
+  	text-shadow: 0 0 10px rgba(255,255,255,.5);
+    background: url(http://localhost:5000/template/header-background.png) repeat-y;
+	-webkit-background-clip: text;
+	background-clip: text;
+    -webkit-text-fill-color: transparent;
+	-webkit-animation: aitf 200s linear infinite;
+    animation-direction: alternate-reverse;
+	-webkit-transform: translate3d(0,0,0);
+	-webkit-backface-visibility: hidden;
+    -webkit-text-stroke: 1px black;
+}
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+
+@keyframes aitf {
+    0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-self: flex-end;
+    gap: 0.5rem;
+    margin-left: auto;
+    margin-right: 1rem;
+}

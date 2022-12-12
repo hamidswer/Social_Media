@@ -1,0 +1,24 @@
+.userItem {
+    text-decoration: none;
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+.userItem-image {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.userItem-name {
+    margin: auto 0%;
+    font-size: small;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.userItem-button {
+    justify-self: flex-end;
+    margin: auto;
+    margin-right: 0%;
+}

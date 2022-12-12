@@ -1,0 +1,72 @@
+.infoForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.infoInput {
+    border: none;
+    outline: none;
+    background-color: var(--inputColor);
+    border-radius: 0.5rem;
+    padding: 20px;
+    flex: 1;
+}
+
+.infoButton {
+    width: 6rem;
+    height: 3rem;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+.image-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+.profile-file-input::before {
+    content: 'Change profile image';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+}
+.cover-file-input::before {
+    content: 'Change cover image';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    --webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+}
+.image-file-input:hover::before {
+    border-color: black;
+}
+.image-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-containers > input {
+    height: 150px;
+    width: 40%;
+}

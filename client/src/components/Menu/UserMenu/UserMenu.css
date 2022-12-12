@@ -1,0 +1,13 @@
+.user-menu-picture {
+    width: 2rem;
+    height: 2rem;
+    background-size: contain;
+    border: 2px solid var(--photo);
+    border-radius: 50%;
+}
+.dropdown-menu {
+    transform: translate3d(0px, 0px, 0px) !important;
+    left: -9.5rem !important;
+    top: 2rem !important;
+}
+

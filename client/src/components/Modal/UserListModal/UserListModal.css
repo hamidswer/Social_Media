@@ -1,0 +1,8 @@
+.UserListModal-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+    gap: 1rem;
+    list-style-type: none;
+}

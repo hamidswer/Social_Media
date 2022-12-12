@@ -1,0 +1,76 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cardColor);
+    border-radius: 0.5rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    gap: 0.5rem;
+    position: relative;
+}
+/* author */
+
+.author{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    padding-bottom: 0px;
+}
+.authorImage {
+    margin-right: 0.5rem;
+}
+.authorName {
+    font-weight:500;
+    font-size: small;
+}
+.createdAt {
+    color: var(--gray);
+    font-size: smaller;
+}
+/* horizontal line */
+.horizontalLine {
+    border-top: 2px solid var(--hrColor);
+    opacity: 0.5; 
+    margin: 0%;
+    padding: 0%;
+}
+/* image */
+.postImage {
+    width: 100%;
+    max-height: 30rem;
+    object-fit: cover;
+    border-radius: 0.25rem;
+}
+ 
+/* content */
+.description {
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+/* reaction */
+.postReaction {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    padding-bottom: 0rem;
+}
+
+.postReaction * {
+    max-width: 20px;
+}
+
+/* likes */
+.likes {
+    font-size: smaller;
+    font-weight: 500;
+    padding-left: 1rem; 
+    color: "var(--gray)";
+}
+
+.comment-img {
+    cursor: pointer;
+}
+
+.share-image {
+    cursor: pointer;
+}

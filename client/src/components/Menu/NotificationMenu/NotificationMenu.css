@@ -1,0 +1,46 @@
+.user-menu-picture {
+    width: 2rem;
+    height: 2rem;
+    background-size: contain;
+    border: 2px solid var(--photo);
+    border-radius: 50%;
+}
+.header-user {
+    position: relative;
+}
+.notification-menu {
+    width: 20rem!important;
+}
+
+
+.header-notification-active {
+    color: var(--pinkShade);
+}
+
+.header-notification-active:active, .header-notification-active:hover {
+    color: var(--pinkShade-s);
+}
+
+.menuDropdown {
+    position: relative;
+}
+.header-notification-counter {
+    position: absolute;
+    top: -20%;
+    right: -40%;
+    font-size: 10px;
+    background-color: var(--pinkShade-s);
+    opacity: 0.85;
+    padding: 1px 6px;
+    border-radius: 50%;
+    color: white;
+    font-weight: 900;
+}
+
+.notification-menu {
+    position: absolute;
+    inset: 0px auto auto 0px !important;
+    transform: translate3d(0px, 0px, 0px) !important;
+    left: -19rem !important;
+    top: 2rem !important;
+}

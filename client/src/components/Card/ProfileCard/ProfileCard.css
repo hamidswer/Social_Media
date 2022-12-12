@@ -1,0 +1,97 @@
+.profileCard {
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 1rem;
+    overflow-x: clip;
+    background-color: var(--cardColor);
+    margin-bottom: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    min-width: 100%;
+}
+.profileImages {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profileImages .cover-picture{
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+
+}
+.profileImages .profile-picture{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -3rem;
+    box-shadow: var(--profileShadow);
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-items: center;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+.profileInfo .title {
+    font-weight: 500;
+}
+
+.followStatus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.followStatus > hr {
+    width: 85%;
+    border: 1px solid var(--hrColor);
+}
+
+.followStatus > div {
+   display: flex;
+   gap: 1rem;
+   width: 80%;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.follow span:nth-child(2) {
+    color: var(--gray);
+    font-size: small;
+}
+
+
+.profileCard > span {
+    font-weight: bold;
+    color: var(--buttonText);
+    align-self: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.profileCard > span:active, .profileCard > span:hover {
+    color: var(--orange);
+}
+.clickable {cursor: pointer;}
+

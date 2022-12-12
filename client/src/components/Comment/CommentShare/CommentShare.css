@@ -1,0 +1,45 @@
+.comment-form {
+    display: flex;
+    width: 100%;
+    margin-bottom: 0.75rem;
+}
+.comment-input {
+    background-color: var(--inputColor);
+    border-radius: 10px;
+    border: none;
+    padding: 7px;
+    font-size: 14px;
+    outline: none;
+    width: 75%;
+    margin-left: 0.5rem;
+}
+
+.comment-button {
+    margin: auto;
+    justify-self: flex-end;
+}
+
+.emoji-pick {
+    cursor: pointer;
+    margin: 0rem 0.5rem;
+}
+.emoji-list {
+    list-style: none;
+    display: flex;
+    gap: 0.2rem;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.emoji {
+    width: 8%;
+    cursor: pointer;
+}
+
+.emoji-pick {
+    color: var(--pinkShade-s);
+    align-self: center;
+    
+}
