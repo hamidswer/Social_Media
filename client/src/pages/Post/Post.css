@@ -1,0 +1,15 @@
+.post-container {
+    min-width: 20rem;
+    max-width: 40rem;
+    margin-bottom: 4rem;
+    
+}
+.post-page {
+    box-shadow: rgb(38, 57, 77) 10px 50px 30px -10px;
+}
+.post-page-description {
+    padding-bottom: 3rem;
+}
+.post-page-container {
+    max-width: 100%;
+}
